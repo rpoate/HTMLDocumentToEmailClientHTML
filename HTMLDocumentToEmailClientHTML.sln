@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HTMLDocumentToEmailClientHTML", "HTMLDocumentToEmailClientHTML.vbproj", "{0417108D-27EB-49DD-A09D-846CAB935747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLDocumentToEmailClientHTML (CS)", "..\HTMLDocumentToEmailClientHTML (CS)\HTMLDocumentToEmailClientHTML (CS).csproj", "{5B8B95FE-6CBC-4CF8-81AC-5B7A54EEC6CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0417108D-27EB-49DD-A09D-846CAB935747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0417108D-27EB-49DD-A09D-846CAB935747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0417108D-27EB-49DD-A09D-846CAB935747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0417108D-27EB-49DD-A09D-846CAB935747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B8B95FE-6CBC-4CF8-81AC-5B7A54EEC6CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8B95FE-6CBC-4CF8-81AC-5B7A54EEC6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8B95FE-6CBC-4CF8-81AC-5B7A54EEC6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8B95FE-6CBC-4CF8-81AC-5B7A54EEC6CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C36D019-DF55-4F75-8B9E-1A4287673854}
+	EndGlobalSection
+EndGlobal
