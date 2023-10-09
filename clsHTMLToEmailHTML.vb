@@ -32,7 +32,11 @@ Public Class InlineCSSToAttributes
         For Each sAttr In CSSAttributesToSimplfy
             m_CssParser.InlineCss = Element.GetAttribute("style")
             If Not String.IsNullOrEmpty(removeString) Then
-                Element.SetAttribute(sAttr, m_CssParser.GetValue(sAttr).Replace(removeString, ""))
+                Try
+                    Element.SetAttribute(sAttr, m_CssParser.GetValue(sAttr).Replace(removeString, ""))
+                Catch
+
+                End Try
             Else
                 Element.SetAttribute(sAttr, m_CssParser.GetValue(sAttr))
             End If
